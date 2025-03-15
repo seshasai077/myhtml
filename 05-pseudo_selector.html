@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector</title>
+    <style>
+        input[type="text"]{
+            background-color: red;
+        }        
+        input[type="text"]:focus{
+            background-color: limegreen;  /* focus is used to change the color of the textbox when we are in write operation */
+            color: white;
+
+        }
+        input[type="password"]{
+            background-color: green;
+        }
+        input[type="submit"]{
+            background-color: blue;
+        }
+        input[type="submit"]:hover{
+            background-color: limegreen;
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>username</label>
+        <input type="text"><br>
+        <label>password</label>
+        <input type="password"><br>
+        <label>submit</label>
+        <input type="submit">
+    </form>
+    
+</body>
+</html>
