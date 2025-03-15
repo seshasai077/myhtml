@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job enrollment</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     
+            
+        }
+        div{
+            background-color: lightgray;
+            width: 400px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px grey;
+            margin: auto; /*margin auto will align the division in the center of the page*/
+            
+           
+            
+     }
+     input,textarea,select{
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 5px;
+     }
+     .button{
+        background-color: darkgray;
+     }
+     
+    </style>
+</head>
+<body>
+    <div >
+    <h1>job enrollment</h1>
+<form>
+    <label>username</label><br>
+    <input type="text" placeholder="username"><br>
+    <label>password</label><br>
+    <input type="password" placeholder="password"><br>
+    <label>Email</label><br>
+    <input type="email" placeholder="email"><br>
+    <label>Bio</label><br>
+    <textarea rows="3" cols="50" ></textarea><br> 
+    <label>Dseignation</label><br>
+    <select>
+        <option>webdevoloper</option>
+        <option>software enigneer</option>
+        <option>data analyst</option>
+    </select><br>
+    <label>Date of Birth</label><br>
+    <input type="date" ><br>
+    <label>your image</label>
+    <input type="file"  placeholder="upload your img"  id="your image"><br> 
+    <label>mobile number</label><br>
+    <input type="number"><br>
+    <label>programming level</label><br>
+    <input type="checkbox" name="programming level" value="beginer">beginer
+    <input type="checkbox" name="programming level" value="intermediate">intermediate
+    <input type="checkbox" name="programming level" value="experienced">experienced<br> 
+    <label>expertise in</label><br>
+    <input type="radio" name="expertise " value="backend">backend
+    <input type="radio" name="expertise " value="frontend">frontend
+    <input type="radio"  name="expertise " value="database">database 
+    <input type="radio" name="expertise " value="fullstack">fullstack<br>
+    <label>Website url</label><br>
+    <input type="url" name="website url" placeholder="yourwebsite"><br>
+    <!-- submit-->
+     <input class="button" type="submit" value="submit"><!--class is used for selecting and applying css for multiples and we should apply styles to class .button-->
+     <input class="button" type="reset" value="reset"><!--id is used for selecting indival-->
+</form>
+</div>
+
+</body>
+</html>
