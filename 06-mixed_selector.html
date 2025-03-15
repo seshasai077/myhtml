@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selector</title>
+    <style>
+       ol li{
+        background-color: grey;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+       }
+
+        ul{
+            background-color: blue;
+
+        }
+        li{
+            background-color: red;
+        }
+        #space{
+            background-color: orange;   /* using id selctor for mixed selector it is time takken so we use nth concept  in this there is first child and last child*/
+        }
+        ol li:nth-child(1){
+            background-color: orange;   
+        }
+        ol li:nth-child(2){
+            background-color: red;
+        }
+        ol li:nth-child(3){
+            background-color: green;
+        }
+        ol li:nth-child(4){
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="space">HTML</li>    <!-- in mixed selector nth concept is used it is better than the firstchild and the last child concept,is and class selector concept -->
+        <li>CSS</li>
+        <li>javascript</li>
+        <li>bootstrap</li>   
+    </ul>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>javascript</li>
+        <li>bootstrap</li>   
+    </ol>
+   
+    
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css Background</title>
+    <style>
+  
+        
+        #bg-color{
+            background-color: teal;
+
+        }
+        #bg-img{
+               background-image: url(img/3239480.webp);
+               box-shadow: 2px solid black;
+               width: 800px;
+               padding: 10px;
+               color: white;
+        }
+        #bg-repeat{
+            box-shadow: 0 0 10px black;
+            width: 300px;
+            height: 200px;
+            background-color: salmon;
+            background-image: url(img/Cricket-Ball-Free-PNG-Image.png);
+            background-position: left;
+   
+            
+
+        }
+        #bg-size{
+            width: 500px;
+            height: 300px;
+            box-shadow: 0 0 10px black;
+            background-image: url(img/3239480.webp);
+            background-size: cover; /* bgcsize:cover is used when image is big and the division is small */
+        
+        }
+        #bg-lineargradient{
+            width: 300px;
+            height: 300px;
+            box-shadow: 0 0 10px gray;
+            /* for muti-color we use linear gradient(angle,first color,second color)*/
+            background: linear-gradient(90deg,black,white,black);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>background color</h2>
+    <div id="bg-color">
+    <h2>iam with teal color</h2>
+    </div>
+    
+    <h2>backgroundimage</h2>
+    <div id="bg-img">
+     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident esse porro expedita nihil cum quod impedit dolore eum minus nisi necessitatibus a, tenetur fugit architecto dolores minima sint natus itaque fuga! Quis veniam ipsam et quaerat, magni quod labore praesentium facere tempora itaque, iure pariatur quibusdam asperiores aperiam reiciendis ipsum.</p>
+    </div>
+
+     <h2>backgroundreapeat</h2>
+     <div id="bg-repeat">
+
+     </div>    
+
+     <h2>backgroundsize</h2>
+     <div id="bg-size">
+     </div>
+
+     <h2>linear gradient</h2>
+     <div id="bg-lineargradient">
+
+     </div>
+</body>
+</html>
