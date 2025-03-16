@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <!-- text box-->
+    <!-- password-->
+    <!--email-->
+    <!--color-->
+    <!--date-->
+    <!--date time-->
+    <!--file-->
+    <!--month-->
+    <!--number-->
+    <!--check box-->
+    <!--radio button-->
+    <!--range selector-->
+    <!--time-->
+    <!--url-->
+    <!--submit-->
+    <!--reset-->
+    <!--text area-->    <!-- no <input type>   <textarea></textarea><-->
+    <!--select box-->   <!-- no <input type>   <select></select> it consist of options<-->
+    <!--field set-->
+    <!--legend-->
+
+<form>
+     <!-- selectbox-->
+     <label>car</label>
+     <select>
+        <option>frari</option>
+        <option>maruthi</option>
+        <option>lamborgni</option>
+     </select><br>
+
+     <label>vehicles</label>
+     <select >
+        <optgroup label="car" >
+        <option value="car">lamborgin</option>
+        <option value="car">benz</option>
+        <option value="car">tesla</option>
+    </optgroup>
+    <optgroup label="bikes">
+        <option value="bikes">yamaha</option>
+        <option value="bikes">duke</option>
+        <option value="bikes">ktm</option>
+    </optgroup>
+     </select><br>
+ 
+     <!--username-->
+    <label>username</label>
+    <input type="text" placeholder="username"><br>
+
+      <!--password-->
+    <label>password</label>
+    <input type="password" placeholder="password">
+    
+    <!-- file -->
+    <label for="file">file upload</label>
+    <input type="file" id="file" placeholder="upload a file"><br>
+
+    <!--month-->
+    <label>month</label>
+    <input type="month" ><br>
+
+    <!--number-->
+    <label>number</label>
+    <input type="number" placeholder="number"><br>
+
+    <!--email-->
+    <label>email</label>
+    <input type="email" pLaceholder="email"><br>
+
+    <!--checkbox-->
+    <label>technologies</label>
+    <input type="checkbox" name="technologies" value="HTML">HTML
+    <input type="checkbox" name="technologies" value="CSS">CSS
+    <input type="checkbox"   name= "technologies" value="JAVASCRIPT">JAVASCRIPT<br>
+
+    <!--radio-->
+    <h2>multiple choice questions</h2>
+    <label>technologies</label><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa est tenetur provident dolore ducimus iste nobis asperiores ipsam hic, veritatis deleniti, consequuntur amet consequatur cum doloribus error quidem quisquam nisi.</p>
+    <input type="radio" name="technologies" value="HTML">HTML<br>
+    <input type="radio" name="technologies" value="css">CSS<br>
+    <input type="radio" name="technologies" value="JAVASCRIPT">JAVASCRIPT<br>
+    <input type="radio" name="technologies" value="AIML">AIML<br>
+
+    <!--range-->
+    <label>range</label>
+    1000<input type="range" value="range">5000<br>
+
+    <!--url-->
+    <label>url</label>
+    <input type="url" placeholder="url" ><br>
+
+    <!--submit-->
+    <input type="submit">
+    <input type="reset">
+
+    <!--textarea-->
+    <label>bio</label>
+    <textarea rows="3" cols="40"></textarea><br>
+
+
+</form>
+</body>
+</html>
